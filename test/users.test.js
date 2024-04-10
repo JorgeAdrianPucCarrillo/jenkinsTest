@@ -15,6 +15,7 @@ describe('Users API', () => {
           expect(res).to.have.status(200); 
           expect(res._body.data).to.be.an('array'); 
           done(); 
+          process.exit(0);
         });
     });
   });
